@@ -538,13 +538,12 @@ import {
     const infoText = `
       ${botname} 
    
-    *مرحبا عزيز مستخدم البوت* \n *هاذا البوت ثم تطويره من طرف OMAR !* \ *يمكنه مساعدتك في الكثير من الأشياء*  \n *لذا لاتنسى دعمنا على انستجرامنا الخاص* \n \n https://www.instagram.com/ovmar_1
-     ${readMore}
-
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
+  *مرحبا عزيز مستخدم البوت* \n *هاذا البوت ثم تطويره من طرف OMAR !* \ *يمكنه مساعدتك في الكثير من الأشياء*  \n *لذا لاتنسى دعمنا على انستجرامنا الخاص* \n \n https://www.instagram.com/ovmar_1
+    *أول مجموعتنا على واتساب*
+    
+    https://chat.whatsapp.com/KgBNPyv57SQEd18OBId1Tj
+    
+    
   ╭───────⳹
   │ *1.* Bot Menu
   │ *2.* Owner Menu
@@ -594,79 +593,79 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/hYP699a.jpg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
-        m.reply('Invalid choice. Please reply with a valid number.');
+        m.reply('*قم بالرد على الرسالة التي تحتوي على الرقم الخاص بالأوامر التي تحتاج* \n \n مثال : 13.');
       }
   
   };
