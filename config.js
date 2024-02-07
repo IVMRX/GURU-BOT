@@ -58,9 +58,9 @@ global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/ovmar_1\n' 
 global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
 global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
-global.fgyt = 'https://youtube.com/@Asliguru'
-global.fgpyp = 'https://youtube.com/@Asliguru'
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
+global.fgyt = 'https://chat.whatsapp.com/KgBNPyv57SQEd18OBId1Tj'
+global.fgpyp = 'https://chat.whatsapp.com/KgBNPyv57SQEd18OBId1Tj'
+global.fglog = 'https://i.imgur.com/Zjza40s.jpg' 
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
