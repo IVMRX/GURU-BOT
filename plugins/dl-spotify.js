@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
           mentionedJid: [m.sender],
           externalAdReply: {
             title: "MOROCCAN BOT",
-            body: `Now playing: ${text}`,
+            body: `تستمع إلى: ${text}`,
             thumbnailUrl: pp,
             sourceUrl: null,
             mediaType: 1,
