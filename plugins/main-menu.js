@@ -538,28 +538,7 @@ import {
     const infoText = `
       ${botname} 
    
-    乂───『 *U S E R*』───乂
-    ⛥ *Name:* ${name}
-    ⛥ *Gold:* ${credit}
-    ⛥ *Role:* ${role}
-    ⛥ *Level:* ${level}
-    ⛥ *Xp:* ${exp}
-    ╰──────────⳹
-   
-    乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
-    ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
-    ⛥ *Type:* NodeJs
-    ⛥ *Baileys:* Multi Device
-    ⛥ *Prefix:* [ *${usedPrefix}* ]
-    ⛥ *Uptime:* ${muptime}
-    ⛥ *Database:*  ${totalreg}
-    ╰──────────⳹
-    
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
+    *مرحبا عزيز مستخدم البوت* \n *هاذا البوت ثم تطويره من طرف OMAR !* \ *يمكنه مساعدتك في الكثير من الأشياء*  \n *لذا لاتنسى دعمنا على انستجرامنا الخاص* \n \n https://www.instagram.com/ovmar_1
      ${readMore}
 
     乂───『 *INFO*』───乂 
