@@ -3,11 +3,11 @@ import displayLoadingScreen from '../lib/loading.js';
 let handler = async (m, { conn, text }) => {
     if (!text) {
         console.log('No song name provided.');
-        throw `*قم باإرسال إسم الأغنية التي تريد* \n\n *مثال:. song Lmorphine*`;
+        throw `*قم باإرسال إسم الأغنية التي تريد* \n\n *مثال: .song Lmorphine*`;
     }
   m.react('🎶')
   await displayLoadingScreen(conn, m.chat);
-  let pp = 'https://i.imgur.com/Zjza40s.jpg'
+  let pp = 'https://i.imgur.com/gzV8Pnk.jpg'
     const query = encodeURIComponent(text);
     let res = `https://guruapi.tech/api/spotifydl?url=${query}`
    // let spotify = await (await fetch(res)).buffer()
