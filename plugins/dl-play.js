@@ -15,11 +15,11 @@ const handler = async (m, {
     args,
     usedPrefix
 }) => {
-    if (!text) throw `give a text to search Example: *${usedPrefix + command}* sefali odia song`;
+    if (!text) throw `إسم الأغنية التي تريد البحث عنها* \n\n *مثال ${usedPrefix + command} Lmorphine Round 3*`;
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `✦ ──『 *GURU PLAYER* 』── ⚝ \n\n [ ⭐ Reply the number of the desired search result to get the Audio]. \n\n` ;
+    const infoText = `✦ ──『 *MOROCCAN BOT* 』── ⚝ \n\n [ 🇲🇦 *قم برقم الأغنية التي تريد*]. \n\n` ;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -98,7 +98,7 @@ handler.before = async (m, {
 
         
     } else {
-        m.reply("Invalid sequence number. Please select the appropriate number from the list above.\nBetween 1 to " + result.allLinks.length);
+        m.reply("*قم بالرد برقم يوجد في القائمة*.\n *من إلى 1*  " + result.allLinks.length);
     }
 };
 
@@ -120,7 +120,7 @@ function formatBytes(bytes, decimals = 2) {
 async function searchAndDownloadMusic(query) {
     try {
         const { videos } = await yts(query);
-        if (!videos.length) return "Sorry, no video results were found for this search.";
+        if (!videos.length) return "اعتدر. البحث غير موجود...";
 
         const allLinks = videos.map(video => ({
             title: video.title,
