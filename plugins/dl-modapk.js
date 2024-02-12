@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       await conn.reply(m.chat, global.wait, m);
       let data = await download(text);
 
-      if (data.size.replace(' MB', '') > 800) {
+      if (data.size.replace(' MB', '') > 200) {
         return await conn.sendMessage(m.chat, { text: '*هاذا التطبيق كبير جدا. ..*' }, { quoted: m });
       }
 
