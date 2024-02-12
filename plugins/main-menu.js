@@ -548,7 +548,7 @@ import {
 https://www.instagram.com/ovmar_1
 
 *او مجموعتنا على واتساب*
-https://chat.whatsapp.com/KgBNPyv57SQEd18OBId1Tj
+https://chat.whatsapp.com/GAnq5yVwpwV1ay9FE3xxiQ
 
 *او رقم الهاتف*
 +212770-579205
