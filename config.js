@@ -50,7 +50,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝘔𝘖𝘙𝘖𝘊𝘊𝘈𝘕 𝘉𝘖𝘛'
+global.botname = 'مرحبا بك في معلومة'
 global.premium = 'true'
 global.packname = '𝘖𝘔𝘈𝘙 1' 
 global.author = '@ovmar_1' 
@@ -64,7 +64,7 @@ global.fglog = 'https://i.imgur.com/Zjza40s.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
-global.wait = '_*سوف يتم تلبية طلبك...*_ \n \n *تابعنا على انستجرام* \n _https://www.instagram.com/ovmar_1_'
+global.wait = '_*سوف يتم تلبية طلبك...🏃🏻‍♂️ !*_ \n \n *لماذا لاتنظم الى مجموعتنا للمزيد من البوتات 😀❤️* \n _https://chat.whatsapp.com/LCFDLxeCOopBaJZcMLlPEQ'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
