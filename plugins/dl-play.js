@@ -19,7 +19,7 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `✦ ──『 *MOROCCAN BOT* 』── ⚝ \n\n [ 🇲🇦 *_قم بالرد برقم الأغنية التي تريد_*]. \n\n` ;
+    const infoText = `✦ ──『 *3OMAR BOT* 』── ⚝ \n\n [ 🇲🇦 *_قم بالرد برقم الأغنية التي تريد_*]. \n\n` ;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
@@ -42,7 +42,7 @@ const orderedLinks = result.allLinks.map((link, index) => {
             conn.sendMessage(m.chat, {
                 delete: key
             });
-            delete conn.GURUPLAY[m.sender];
+            delete conn.OMARPLAY[m.sender];
         }, 150 * 1000),
     };
 };
@@ -120,7 +120,7 @@ function formatBytes(bytes, decimals = 2) {
 async function searchAndDownloadMusic(query) {
     try {
         const { videos } = await yts(query);
-        if (!videos.length) return "اعتدر. البحث غير موجود...";
+        if (!videos.length) return "اعتذر. البحث غير موجود...";
 
         const allLinks = videos.map(video => ({
             title: video.title,
