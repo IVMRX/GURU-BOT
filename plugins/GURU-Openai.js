@@ -70,8 +70,8 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     throw `*ERROR*`;
   }
 };
-handler.help = ['chatgpt']
-handler.tags = ['AI']
-handler.command = ['bro', 'chatgpt', 'ai', 'gpt'];
+handler.help = ['chatgpt4']
+handler.tags = ['ai']
+handler.command = ['bro4', 'chatgpt4', 'ai4', 'gpt4'];
 
 export default handler;
